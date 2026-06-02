@@ -95,25 +95,7 @@ Unlike typical apps that require a heavy database engine (like SQLite/PostgreSQL
 ---
 
 For installation, configuration, and execution instructions, please see [SETUP.md](SETUP.md).
-You need also to have the .env be used:
-```env
-# Telegram Bot Configuration Template
 
-# Telegram Bot API Token from @BotFather
-TELEGRAM_BOT_TOKEN=your_bot_token_here
-
-# Telegram IDs (Note: channels and groups usually start with -100)
-TELEGRAM_GROUP_ID=-1001234567890    # Example
-CHANGELOG_CHANNEL_ID=-1001234567890    # Example
-ADMIN_ID=716300112
-
-# Topic IDs inside the supergroup (message thread IDs)
-STATS_TOPIC_ID=1234     # Example
-OTHER_FILES_TOPIC_ID=3456    # Example
-
-# Intervals (in seconds)
-CHANGELOG_INTERVAL=7200
-STATS_UPDATE_INTERVAL=21600
 
 ```
 ---
